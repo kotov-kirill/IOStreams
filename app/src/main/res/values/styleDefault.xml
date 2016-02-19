@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonStyleDefault" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_background_default</item>
+        <item name="android:minHeight">37dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="checkedTextStyleDefault">
+        <item name="android:checkMark">?android:attr/listChoiceIndicatorMultiple</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
