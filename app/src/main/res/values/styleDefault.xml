@@ -11,4 +11,5 @@
         <item name="android:gravity">left|center_vertical</item>
         <item name="android:padding">10dp</item>
     </style>
+
 </resources>

@@ -1,5 +1,6 @@
 package com.example.kirill.iostreams;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
@@ -123,11 +124,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_clear) {
-            this.editText.setText("");
-            this.toastMaker("Clear");
-            return true;
+        switch (item.getItemId()){
+            case R.id.action_clear:
+                this.editText.setText("");
+                this.toastMaker("Clear");
+                return true;
+            case R.id.action_search:
+                startActivity(new Intent(this, SearchActivity.class));
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
