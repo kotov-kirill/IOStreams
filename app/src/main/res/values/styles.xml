@@ -11,15 +11,7 @@
         <item name="android:checkedTextViewStyle">@style/checkedTextStyleDefault</item>
 
         <item name="windowActionModeOverlay">true</item>
-
-        <item name="searchViewStyle">@style/tt</item>
     </style>
-
-    <style name="tt">
-        <item name="editTextColor">@android:color/black</item>
-        <item name="android:textColorHint">@android:color/black</item>
-    </style>
-
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

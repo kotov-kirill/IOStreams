@@ -13,6 +13,6 @@
         <item name="android:buttonStyle">@style/buttonStyleDefault</item>
         <item name="android:checkedTextViewStyle">@style/checkedTextStyleDefault</item>
 
-        <item name="android:windowActionModeOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
     </style>
 </resources>
